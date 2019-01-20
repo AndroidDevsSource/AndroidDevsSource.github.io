@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-<link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+<link rel="icon" href="{{ site.baseurl }}/assets/images/favicon-32x32.png">
     
 <title>{{ page.title }} | {{site.name}}</title>
     
@@ -15,10 +15,12 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     
 <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
-    
+
 <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
     
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+
+<link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet">
     
 </head>
     
@@ -45,7 +47,8 @@
     
     <!-- Begin Logo -->
     <a class="navbar-brand" href="{{ site.baseurl }}/">
-    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+    <!-- <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"> -->
+    <img src="{{ site.baseurl }}/assets/images/logoHorizontalWhite.png" alt="{{ site.name }}">
     </a>
     <!-- End Logo -->
   
@@ -73,7 +76,7 @@
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                <a class="nav-link" href="{{ site.baseurl }}/about">Acerca De</a>
                 </li>
                 
                 <!--<li class="nav-item">
@@ -95,9 +98,10 @@
 <div class="container">
 
 	<!-- Jumbotron added -->
-	<div class="jumbotron">
-	  <h1>Lil' Android Dev's Source</h1> 
-	  <p>Cositas que me encontré en el camino del desarrollo y quizás te sirvan :)</p> 
+	<div class="jumbotron" id="jumbo">
+        <!-- <img src="./assets/images/jumbotron.png" /> -->
+	  <!-- <h1>Lil' Android Dev's Source</h1> 
+	  <p>Cositas que me encontré en el camino del desarrollo y quizás te sirvan :)</p> --> 
 	</div>
     
 <!-- Site Title
@@ -166,13 +170,13 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left lightText">
                  Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+            <div class="col-md-6 col-sm-6 text-center text-lg-right lightText">    
                 <a target="_blank" href="https://www.wowthemes.net">Mediumish Theme</a> by WowThemes.net
             </div>
-			<div class="col-md-12 col-sm-12 text-center">
+			<div class="col-md-12 col-sm-12 text-center" style="color: #8BC34A;">
                  Long Live Learning :) 
             </div>
         </div>

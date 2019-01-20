@@ -1,0 +1,17 @@
+#jumbo{
+	min-height: 500px;
+	background-image: url(../images/jumbotron.png) !important;
+	background-size: 100% 100% !important;
+}
+
+.navbar {
+	background-color: #37474F !important;
+}
+
+body, footer{
+	background-color: #263238 !important;
+}
+
+.lightText{
+	color: #F5F5F5;
+}
