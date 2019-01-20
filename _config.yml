@@ -4,8 +4,8 @@ description: "Un lugar con cositas de Android que me encontré en el camino"
 meta_description: ""
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon-32x32.png'
-# baseurl: 'https://androiddevssource.github.io'
-baseurl: ''
+baseurl: 'https://androiddevssource.github.io'
+# baseurl: ''
 google_analytics: ''
 disqus: ''
 mailchimp-list: ''
