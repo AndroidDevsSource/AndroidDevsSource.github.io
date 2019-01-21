@@ -12,6 +12,22 @@ body, footer{
 	background-color: #263238 !important;
 }
 
+a{
+	color: #F5F5F5 !important;
+}
+
+a:active{
+	color: #000000 !important;
+}
+
+a:hover{
+	color: #8BC34A !important;
+}
+
 .lightText{
 	color: #F5F5F5;
+}
+
+.section-title h2 {
+    border-bottom: 1px solid #F5F5F5 !important;
 }

@@ -9,20 +9,22 @@ title: Home
 ================================================== -->
 <section class="featured-posts">
     <div class="section-title">
-        <h2><span>Featured</span></h2>
+        <h2 class="lightText"><span>Destacados</span></h2>
     </div>
     <div class="row">
-        
-    {% for post in site.posts %}
+        {% include featuredbox.html %}
+
+        {% comment}
+        {% for post in site.posts %}
 
         {% if post.featured == true %}
 
             {% include featuredbox.html %}
 
         {% endif %}
+        {% endcomment}
 
     {% endfor %}
-        
     </div>
 </section>
 
@@ -34,18 +36,20 @@ title: Home
     
     <div class="section-title">
         
-        <h2><span>All Stories</span></h2>
+        <h2  class="lightText"><span>Publicaciones</span></h2>
         
     </div>
     
     <div class="row listrecent">
+        {% include postbox.html %} 
 
+        {% comment}
         {% for post in paginator.posts %}
 
-               {% include postbox.html %}          
+            {% include postbox.html %}          
 
         {% endfor %}
-        
+        {% endcomment}
     </div>
     
 </section>
@@ -58,4 +62,3 @@ title: Home
     {% include pagination.html %}
 </span>
 </div>
-
