@@ -1,7 +1,7 @@
 # Site
 name: "Android Dev's Source"
 description: "Un lugar con cositas de Android que me encontré en el camino"
-meta_description: ""
+meta_description: "Android"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon-32x32.png'
 baseurl: 'https://androiddevssource.github.io'
